@@ -1,0 +1,109 @@
+body{
+    background-color: antiquewhite;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    
+    font-family: 'Roboto Slab', serif; 
+}
+nav ul{  
+    display: flex;
+    list-style: none;
+    height: 60px;
+    background-color: black;
+    color: aliceblue;
+}
+.brand img{
+    width: 54px;
+    padding: 0 8px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1rem;
+}
+nav ul li{
+    padding: 0 12px;
+    align-items: center;
+    padding: 18px 20px;
+}
+.container{
+    min-height: 60vh;
+    background-color: black;
+    color: white;
+    font-family:'Roboto Slab', serif ;
+    display: flex;
+    width: 70%;
+    margin: 23px auto;
+    border-radius: 12px;
+    padding: 20px;
+    background-image: url('background2.jpg');
+    background-size: 1300px 500px;
+}
+.bottom{
+    position: sticky;
+    height: 95px;
+    bottom: 0;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icons{
+    margin-top: 20px;
+}
+#myprogressbar{
+    width: 80vw;
+    cursor: pointer;
+}
+.songitem{
+height: 50px;
+display: flex;
+background-color: white;
+width: 70%;
+color: black;
+margin: 12px 2px;
+justify-content: space-between;
+align-items: center;
+border-radius: 30px;
+margin: 20px;
+}
+.songitem img{
+    width: 50px;
+    margin: 0 23px;
+    border-radius: 35px;
+
+}
+.timestamp{
+    margin: 0 12px;
+}
+.timestamp i{
+    cursor: pointer;
+}
+.songinfo{
+    position:absolute;
+    left: 10vw;
+    font-family: 'Roboto Slab', serif;
+}
+.songinfo img{
+    opacity:0;
+    transition: opacity 0.4s ease-in;
+}
+#masterPlay{
+    cursor: pointer;
+    
+}
+#previous{
+    cursor: pointer;
+    margin: 0 20px;
+}
+#next{
+    cursor: pointer;
+    margin: 0 20px;
+}
